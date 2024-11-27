@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nessie <nessie@student.42.fr>              +#+  +:+       +#+        */
+/*   By: acatusse <acatusse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/10 15:29:10 by nessie            #+#    #+#             */
-/*   Updated: 2023/05/02 18:35:08 by nessie           ###   ########.fr       */
+/*   Created: 2023/02/10 15:29:10 by acatusse          #+#    #+#             */
+/*   Updated: 2023/04/13 11:57:54 by acatusse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,3 +59,20 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (printables);
 }
+/*
+int	main(void)
+{
+	// char
+	char c = 'N';
+	char *s = "hihi";
+	void *p = s;
+	int	d = 5.7;
+	int i = 42;
+	int u = 13;
+	unsigned int x = 0x25ab7;
+	unsigned int X = 0x25AB7;
+	char pc = '%';
+
+	ft_printf("%c, %s, %p, %d, %i, %u, %x, %X, %%\n", c, s, p, d, i, u, x, X, pc);
+	printf("%c, %s, %p, %d, %i, %u, %x, %X, %%", c, s, p, d, i, u, x, X, pc);
+}*/
